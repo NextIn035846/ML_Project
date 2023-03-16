@@ -1,0 +1,23 @@
+1. Agenda:
+1- Set up github {Repository}
+A) new environment
+B)setup.py
+C) requirements.txt
+
+set up githhub steps:
+1. creat the new repository.
+2. go to the anconda prompt
+3. navigate to the your working directory.
+4. type command "code ." - to open the VScode.
+5. creat new environment.
+	A) conda create -p "environment_name" python=="Version" -y
+	B) conda activate "environment_name"/
+
+6. Creating the github repository.
+	A) type the - git init
+	B) git commit -m "add the comment"
+	C) git branch -M main
+	D) git remote add origin "add your github repository link"
+	E) git push -u origin main
+7. installing the requirement packages
+ 	A) type command "pip install -r requiremnet.txt"
